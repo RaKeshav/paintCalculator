@@ -2,7 +2,9 @@ import unittest
 from paintCalc import *
 
 
-class validatorTestor(unittest.TestCase):
+class validatorTestor(unittest.TestCase):#
+
+
 
     def test_int_validators(self):
         self.assertEqual(int_check(5, 10, 0, 'Integer'), False)  # The validator should except this
